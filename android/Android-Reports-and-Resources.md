@@ -1,0 +1,239 @@
+# Android Reports and Resources
+
+## Resources
+
+https://github.com/saeidshirazi/awesome-android-security
+
+[aapt](https://raw.githubusercontent.com/nightowl131/AAPG/master/aapg.txt)
+
+[OWASP top 10 2016](https://www.owasp.org/index.php/Mobile_Top_10_2016-Top_10)
+
+[OWASP mobile testing guide](https://github.com/OWASP/owasp-mstg)
+
+[Android Reversing 101](https://www.evilsocket.net/2017/04/27/Android-Applications-Reversing-101/#.WQND0G3TTOM.reddit)
+
+[Detect secret leaks in Android apps online](https://android.fallible.co/)
+
+[Android Security Guidelines](https://developer.box.com/docs/android-security-guidelines)
+
+## Reports
+
+### Hardcoded credentials
+
+Disclosure of all uploads via hardcoded api secret
+
+[https://hackerone.com/reports/351555](https://hackerone.com/reports/351555)
+
+--------
+
+### Insecure deeplinks
+
+Sensitive information disclosure
+
+[https://hackerone.com/reports/401793](https://hackerone.com/reports/401793)
+
+### RCE
+
+RCE in TinyCards for Android
+
+[https://hackerone.com/reports/281605](https://hackerone.com/reports/281605) - TinyCards made this report private.
+
+--------
+
+### SQL Injection
+
+SQL Injection in Content Provider
+
+[https://hackerone.com/reports/291764](https://hackerone.com/reports/291764)
+
+--------
+
+### Session theft
+
+Steal user session
+
+[https://hackerone.com/reports/328486](https://hackerone.com/reports/328486)
+
+--------
+
+### Steal files
+
+Vulnerable to local file steal, Javascript injection, Open redirect
+
+[https://hackerone.com/reports/499348](https://hackerone.com/reports/499348)
+
+Token leakage due to stolen files via unprotected Activity
+
+[https://hackerone.com/reports/288955](https://hackerone.com/reports/288955)
+
+Steal files due to exported services
+
+[https://hackerone.com/reports/258460](https://hackerone.com/reports/258460)
+
+Steal files due to unprotected exported Activity
+
+[https://hackerone.com/reports/161710](https://hackerone.com/reports/161710)
+
+Steal files due to insecure data storage
+
+[https://hackerone.com/reports/44727](https://hackerone.com/reports/44727)
+
+Insecure local data storage, makes it easy to steal files
+
+[https://hackerone.com/reports/57918](https://hackerone.com/reports/57918)
+
+Steal cookies
+
+https://medium.com/bugbountywriteup/firefox-and-how-a-website-could-steal-all-of-your-cookies-581fe4648e8d
+
+--------
+
+### Bypasses
+
+Golden techniques to bypass host validations
+
+[https://hackerone.com/reports/431002](https://hackerone.com/reports/431002)
+
+Two-factor authentication bypass due to vuln endpoint
+
+[https://hackerone.com/reports/202425](https://hackerone.com/reports/202425)
+
+Another endpoint Auth bypass
+
+[https://hackerone.com/reports/205000](https://hackerone.com/reports/205000)
+
+Bypass PIN/Fingerprint lock
+
+[https://hackerone.com/reports/331489](https://hackerone.com/reports/331489)
+
+Bypass lock protection
+
+[https://hackerone.com/reports/490946](https://hackerone.com/reports/490946)
+
+Bypass of biometrics security functionality
+
+[https://hackerone.com/reports/637194](https://hackerone.com/reports/637194)
+
+--------
+
+### XSS
+
+HTML Injection in BatterySaveArticleRenderer WebView
+
+[https://hackerone.com/reports/176065](https://hackerone.com/reports/176065)
+
+XSS via SAMLAuthActivity
+
+[https://hackerone.com/reports/283058](https://hackerone.com/reports/283058)
+
+XSS in ImageViewerActivity
+
+[https://hackerone.com/reports/283063](https://hackerone.com/reports/283063)
+
+XSS via start ContentActivity
+
+[https://hackerone.com/reports/189793](https://hackerone.com/reports/189793)
+
+XSS on Owncloud webview
+
+[https://hackerone.com/reports/87835](https://hackerone.com/reports/87835)
+
+--------
+
+### Privilege Escalation
+
+Intent Spoofing
+
+[https://hackerone.com/reports/97295](https://hackerone.com/reports/97295)
+
+Access of some not exported content providers
+
+[https://hackerone.com/reports/272044](https://hackerone.com/reports/272044)
+
+Access protected components via intent
+
+[https://hackerone.com/reports/200427](https://hackerone.com/reports/200427)
+
+Fragment injection
+
+[https://hackerone.com/reports/43988](https://hackerone.com/reports/43988)
+
+Javascript injection
+
+[https://hackerone.com/reports/54631](https://hackerone.com/reports/54631)
+
+--------
+
+### CSRF
+
+Deeplink leads to CSRF in follow action
+
+[https://hackerone.com/reports/583987](https://hackerone.com/reports/583987)
+
+---
+
+Case sensitive account collisions
+
+overwrite account associated with email via android application
+
+[https://hackerone.com/reports/187714](https://hackerone.com/reports/187714)
+
+---
+
+### Intercept Broadcasts
+
+Possible to intercept broadcasts about file uploads
+
+[https://hackerone.com/reports/167481](https://hackerone.com/reports/167481)
+
+Vulnerable exported broadcast reciever
+
+[https://hackerone.com/reports/289000](https://hackerone.com/reports/289000)
+
+View every network request response's information
+
+[https://hackerone.com/reports/56002](https://hackerone.com/reports/56002)
+
+--------
+
+
+
+## Tips
+
+[Attacking vulnerable Broadcast Recievers](https://manifestsecurity.com/android-application-security-part-18/)
+
+[Android Webview Vulnerabilities](https://pentestlab.blog/2017/02/12/android-webview-vulnerabilities/)
+
+[Android reverse engineering recon](https://b3nac.com/posts/2017-11-10-Setup-and-tips-for-Android-APK-recon.html)
+
+[Webview addjavascriptinterface RCE](https://labs.mwrinfosecurity.com/blog/webview-addjavascriptinterface-remote-code-execution/)
+
+[Install PLayStore On Android Emulator](https://medium.com/@dai_shi/installing-google-play-services-on-an-android-studio-emulator-fffceb2c28a1)
+
+[Android Bug Bounty Tips](https://medium.com/bugbountyhunting/bug-bounty-hunting-tips-2-target-their-mobile-apps-android-edition-f88a9f383fcc)
+
+https://twitter.com/_bagipro/status/1329185248035397632?s=09
+
+
+
+## Practice Apps
+
+#### InjuredAndroid
+
+[A vulnerable Android application with ctf examples based on bug bounty findings, exploitation concepts, and pure creativity.](https://github.com/B3nac/InjuredAndroid)
+
+#### Android-InsecureBankv2
+
+[Vulnerable Android application for developers and security enthusiasts to learn about Android insecurities](https://github.com/dineshshetty/Android-InsecureBankv2)
+
+#### Damn Insecure and Vulnerable app
+
+[Damn Insecure and vulnerable App for Android](https://github.com/payatu/diva-android)
+
+#### OWASP-GoatDroid-Project
+
+[OWASP GoatDroid is a fully functional and self-contained training environment for educating developers and testers on Android security](https://github.com/jackMannino/OWASP-GoatDroid-Project)
+
+#### Sieve mwrlabs
+
+[Sieve is a small Password Manager app created to showcase some of the common vulnerabilities found in Android applications.](https://github.com/mwrlabs/drozer/releases/download/2.3.4/sieve.apk)
